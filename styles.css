@@ -1,0 +1,173 @@
+<!-- CSS pour styliser le CV -->
+
+* {
+    box-sizing: border-box; /* Pour inclure la bordure et le padding dans la largeur et la hauteur */
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('images/background.jpeg');
+   background-size: cover;  /* L'image s'ajuste pour couvrir tout l'écran */
+    background-position: center; /* L'image est centrée */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    border: 5px solid white; /* Une bordure noire de 5 pixels d'épaisseur */
+    margin: 20px; /* Pour que la bordure ne soit pas collée aux bords de la fenêtre */
+    padding: 20px;
+    width: 1300px;
+    height: 1150px;
+}
+
+.container {
+    display: flex; /* Utilise Flexbox pour un layout en colonnes */
+    width: 100%; /* Prend toute la largeur de la page */
+    height: 100%; /* Définit la hauteur à 100% de la vue */
+   
+}
+
+.colonne {
+    padding: 20px; /* Ajoute de l'espace intérieur */
+    margin: 10px; /* Ajoute de l'espace extérieur */
+}
+
+.gauche {
+    flex: 1; /* Chaque colonne prend une part égale de l'espace disponible */
+    background-color: #f0f0f0; /* Couleur de fond pour la colonne de gauche */
+}
+
+.droite {
+    flex: 2; /* Chaque colonne prend une part égale de l'espace disponible */
+    background-color: #d0d0d0; /* Couleur de fond pour la colonne de droite */
+}
+
+        hr {
+            border: none; /* Supprime la bordure par défaut */
+            height: 2px; /* Hauteur de la ligne */
+            background-color: #E98815; /* Couleur de la ligne */
+            margin: 10px 0; /* Marges autour de la ligne */
+        }
+       
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 45px;
+            color: #E98815;
+            text-align: center;
+            text-shadow: -5px 3px 5px #3E6B89; /* mettre une ombre */
+        }
+
+        h2 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 25px;
+            color: #3E6B89;
+            text-align: center;
+        }
+
+        h3 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 25px;
+            color: #E98815;
+        }
+
+        h4 {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            color: #3E6B89;
+            text-align: center;
+            
+        }
+        h5 {
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #3E6B89;
+        }
+
+        h6 {
+            font-family:'Courier New', Courier, monospace;
+            font-size: 25px;
+            color: #E98815;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #000;
+        }
+
+
+
+        /* Style pour l'élément avec l'ID 'coordonnées' */
+        #contact {
+            color: #3E6B89; /* Change la couleur du texte en vert */
+            font-weight: bold; /* Met le texte en gras */
+            font-size: 18px; /* Augmente la taille de la police */
+            text-decoration: none;
+        
+        } 
+
+            
+        .profile, .experience, .education, .competence {
+            margin-bottom: 10px;
+        }
+        .profile p, .experience p, .education p, .skills p {
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            color: #E98815;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .experience, .formation {
+            padding-left: 20px;
+        }
+        /* Style pour les logos des compétences */
+        .competence ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .competence li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .competence img {
+            width: 50px;
+            height: 50px;
+        }
+        .competence span {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+        /* Style du pied de page */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color:#E98815;
+            color: white;
+            margin-top: 10px;
+            font-weight: 900;
+        }
+        footer a {
+            color:#3E6B89;
+            text-decoration:none;
+            margin-top: 20%;
+            
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    
